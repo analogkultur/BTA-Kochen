@@ -33,6 +33,11 @@ html, body {
   font-weight: bold;
 }
 
+#navigation a:hover{
+  color: rgb(69,139,116);
+  transition: 0.5s color linear;
+}
+
 nav li{
   list-style-type: none;
   margin-left: 2em
@@ -84,8 +89,12 @@ nav li{
   border-radius: 4px;
   display: inline-block;
   margin-top: 2em;
+  transition: 0.5s background linear;
 }
 
+.bttn:hover{
+  background: rgb(69,139,116);
+}
 
 @media (min-width:768px) {
   #burger{
@@ -101,4 +110,5 @@ nav li{
   h1{
   font-size: 3em
   }
+
   }
